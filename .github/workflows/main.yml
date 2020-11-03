@@ -33,4 +33,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deploy on Surge
-        run: surge ./build --token {{secrets.SURGE_TOKEN}} --domain expense-tracker-sheharyar.surge.sh
+        run: surge ./build --token ${{secrets.SURGE_TOKEN}} --domain expense-tracker-sheharyar.surge.sh

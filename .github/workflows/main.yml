@@ -26,9 +26,10 @@ jobs:
         with:
             node-version: '12'
             check-latest: true
-      - run: npm install
+      - name: Installing Node
+        run: npm install
       - name: Install Surge
-      - run: npm i -g surge
+        run: npm i -g surge
 
       # Runs a set of commands using the runners shell
       - name: Deploy on Surge

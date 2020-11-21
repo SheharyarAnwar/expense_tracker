@@ -1,0 +1,21 @@
+@import url(//db.onlinewebfonts.com/c/ce0272ed48a4c133bc9a16545b0c6c74?family=Neon+80s);
+@font-face {
+  font-family: "Neon 80s";
+
+  src: url("//db.onlinewebfonts.com/t/ce0272ed48a4c133bc9a16545b0c6c74.woff2")
+    format("woff2");
+}
+:root {
+  --grey: #fcf5ff;
+  --yellow: #fff7d0;
+  --salmon: #ffb9b0;
+  --red: #ff5d68;
+  --primary-font: "Source Sans Pro", sans-serif;
+  --secondary-font: "Neon 80s", "Source Sans Pro", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

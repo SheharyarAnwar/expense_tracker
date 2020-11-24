@@ -1,9 +1,10 @@
 import React from "react";
-import Main from "./Layouts/Main/index";
+import TrackerView from "./Views/TrackerView/index";
+import Layouts from "./Layouts/index";
 export default function App() {
   return (
-    <div>
-      <Main />
-    </div>
+    <>
+      <TrackerView layout={Layouts.main} />
+    </>
   );
 }

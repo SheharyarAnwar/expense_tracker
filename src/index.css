@@ -15,3 +15,32 @@
 p {
   font-size: 15px;
 }
+input {
+  font-size: 15px;
+  color: var(--salmon);
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+::placeholder {
+  font-size: 15px;
+  color: var(--salmon);
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--grey);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--salmon);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fd8b7c;
+}

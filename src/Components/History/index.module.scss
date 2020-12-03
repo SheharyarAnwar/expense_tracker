@@ -4,5 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+}
+.scrollableWrapper {
+  width: 100%;
+  height: 80%;
+  overflow-y: auto;
 }

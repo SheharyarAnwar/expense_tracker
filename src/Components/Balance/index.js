@@ -1,10 +1,10 @@
 import React from "react";
-export default function Index() {
-  //const [balance, setbalance] = useState(0);
+
+export default function Index({ balance }) {
   return (
     <div>
       <p>Your Balance</p>
-      <p style={{ marginTop: "10px" }}>{350}</p>
+      <p style={{ marginTop: "10px" }}>{balance}</p>
     </div>
   );
 }

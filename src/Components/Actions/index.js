@@ -30,8 +30,8 @@ export default function Index(props) {
           width={22}
         />
       </div>
-      <div ref={addRef} className={classes.add}>
-        <AddIcon width={15} onClick={addIconClicked} />
+      <div ref={addRef} className={classes.add} onClick={addIconClicked}>
+        <AddIcon width={15} />
       </div>
     </>
   );

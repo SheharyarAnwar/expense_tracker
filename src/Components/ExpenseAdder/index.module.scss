@@ -27,7 +27,7 @@
       input {
         &:focus {
           outline: none;
-          border-color: #fd8b7c;
+          border-color: #eb2e16;
         }
         border-style: none;
         padding: 5px;
@@ -41,6 +41,7 @@
       align-items: center;
       bottom: 0;
       right: 0;
+      cursor: pointer;
       width: 120px;
       height: 60px;
       background-color: var(--salmon);

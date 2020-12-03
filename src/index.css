@@ -1,7 +1,8 @@
 :root {
   --grey: #fcf5ff;
   --yellow: #fff7d0;
-  --salmon: #ffb9b0;
+  --salmon: #fc8171;
+  /* --salmon: #ffb9b0; */
   --red: #ff5d68;
   --primary-font: "Caviar Dreams", sans-serif;
   --secondary-font: "Neon 80s", "Source Sans Pro", sans-serif;
@@ -42,5 +43,5 @@ input {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #fd8b7c;
+  background: #f85858;
 }

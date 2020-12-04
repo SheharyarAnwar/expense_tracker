@@ -1,7 +1,10 @@
 .wrapper {
   margin-top: 10px;
   .capsule {
-    width: 150px;
+    @media only screen and (max-width: 1000px) {
+      width: 115px;
+    }
+    width: 10vw;
     border-radius: 30px;
     display: flex;
     justify-content: center;

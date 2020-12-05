@@ -13,8 +13,8 @@ export default function Index(props) {
   useEffect(() => {
     var tl = gsap.timeline({ yoyo: true, repeat: -1 });
     tl.to(addRef.current, {
-      scale: 1.5,
-      duration: 2,
+      scale: 1.4,
+      duration: 1.5,
     });
     tl.play();
   });
@@ -30,8 +30,11 @@ export default function Index(props) {
           width={22}
         />
       </div>
-      <div ref={addRef} className={classes.add} onClick={addIconClicked}>
-        <AddIcon width={15} />
+      <div className={classes.animationWrapper}>
+        <div className={classes.add} onClick={addIconClicked}>
+          <AddIcon width={15} />
+        </div>
+        <span ref={addRef} className={classes.pulsar} />
       </div>
     </>
   );
